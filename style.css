@@ -4,7 +4,7 @@ Colors:
 - yellow
 - rgb(241, 117, 0)
 - red
-- #f3b76a
+- f3b76a
 - #f17500
 - #0d6e00
 - #6d00fb
@@ -27,8 +27,51 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+body{
+    background: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg") no-repeat ;
+    background-size: cover;
+    color: white;
+}
+.header{
+    background: linear-gradient(#74c9f1, #fb4040) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    font-size: 24px;
+    padding:10px;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.639);
+    margin: auto;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+#row1, #row2{
+    width: 500px;
+}
+
+#row1-section2{
+    background: #74c9f1 ;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+#row2-section2 {
+    background: #fb4040 ;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
 
 #jordans-1, #jordans-2 {
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
 }
